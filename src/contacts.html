@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet" />
+</head>
+<body>
+<div class="sidebar d-flex flex-column p-3">
+    <h4 class="mb-4">Меню</h4>
+    <ul class="nav nav-pills flex-column mb-auto">
+        <li class="nav-item">
+            <a href="#" class="nav-link">Главная</a>
+        </li>
+        <li>
+            <a href="#" class="nav-link">Категории</a>
+        </li>
+        <li>
+            <a href="#" class="nav-link">Заказы</a>
+        </li>
+        <li>
+            <a href="#" class="nav-link active">Контакты</a>
+        </li>
+    </ul>
+    <div class="mt-auto">
+        <div class="card bg-secondary border-0 mb-2" style="background:#333;">
+            <div class="card-body p-2">
+                <a href="#" style="color:#bdbdbd; font-size:0.85em; text-decoration:none; display:block; margin-bottom:4px;">Профиль</a>
+                <a href="#" style="color:#bdbdbd; font-size:0.85em; text-decoration:none; display:block;">Выход</a>
+            </div>
+        </div>
+        <div class="d-flex align-items-center ps-2 pb-2">
+            <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+                 alt="Аватар пользователя" width="32" height="32" class="rounded-circle me-2">
+            <div>
+                <div style="font-size: 0.95em;">Пользователь</div>
+                <div style="font-size: 0.85em; color:#bdbdbd;">online</div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="main-content">
+    <h2 class="mb-5 text-center" style="font-size:2.2rem;">Контакты</h2>
+    <div class="container">
+        <div class="row justify-content-center">
+            <!-- Форма -->
+            <div class="col-md-4">
+                <form class="border p-4 bg-white rounded shadow-sm">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Имя</label>
+                        <input type="text" class="form-control" id="name" placeholder="Ваше имя">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Почта</label>
+                        <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Сообщение</label>
+                        <textarea class="form-control" id="message" rows="3" placeholder="Текст сообщения"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Отправить</button>
+                </form>
+            </div>
+            <!-- Текст справа -->
+            <div class="col-md-5">
+                <h5 class="mb-3 mt-2">Наши контакты</h5>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <small class="text-muted">
+                    While these feedback styles cannot be styled with CSS, you can still customize the feedback text through JavaScript.
+                </small>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
